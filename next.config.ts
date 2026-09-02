@@ -1,7 +1,22 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    remotePatterns: [
+      {
+        // CoinGecko coin icons
+        protocol: "https",
+        hostname: "coin-images.coingecko.com",
+        pathname: "/**",
+      },
+      {
+        // Fallback hostname used by some CoinGecko responses
+        protocol: "https",
+        hostname: "assets.coingecko.com",
+        pathname: "/**",
+      },
+    ],
+  },
 };
 
 export default nextConfig;
