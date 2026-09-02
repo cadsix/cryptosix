@@ -52,7 +52,7 @@ export function Header({ initialCoins }: HeaderProps) {
               color: "var(--color-text-1)",
             }}
           >
-            cryptoviz
+            cryptosix
           </span>
           <span
             style={{

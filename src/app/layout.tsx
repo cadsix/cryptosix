@@ -20,8 +20,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "CryptoViz — Live Crypto Market Dashboard",
-    template: "%s | CryptoViz",
+    default: "CryptoSix — Live Crypto Market Dashboard",
+    template: "%s | CryptoSix",
   },
   description:
     "Real-time cryptocurrency prices, market caps, and portfolio tracking. Built with Next.js, TypeScript, and the CoinGecko API.",
@@ -34,18 +34,18 @@ export const metadata: Metadata = {
     "portfolio tracker",
     "live prices",
   ],
-  authors: [{ name: "CryptoViz" }],
+  authors: [{ name: "cadsix" }],
   openGraph: {
     type: "website",
     locale: "en_US",
-    title: "CryptoViz — Live Crypto Market Dashboard",
+    title: "CryptoSix — Live Crypto Market Dashboard",
     description:
       "Real-time cryptocurrency prices, market caps, and portfolio tracking.",
-    siteName: "CryptoViz",
+    siteName: "CryptoSix",
   },
   twitter: {
     card: "summary_large_image",
-    title: "CryptoViz — Live Crypto Market Dashboard",
+    title: "CryptoSix — Live Crypto Market Dashboard",
     description:
       "Real-time cryptocurrency prices, market caps, and portfolio tracking.",
   },

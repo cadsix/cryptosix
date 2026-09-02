@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback } from "react";
 import type { Coin } from "@/lib/api";
 
-const STORAGE_KEY = "cryptoviz_portfolio";
+const STORAGE_KEY = "cryptosix_portfolio";
 
 export interface PortfolioEntry {
   coinId: string;
